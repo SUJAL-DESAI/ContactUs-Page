@@ -144,3 +144,9 @@ body {
   background-color: #ccc;
   cursor: not-allowed;
 }
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}

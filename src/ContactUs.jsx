@@ -122,6 +122,29 @@ export default function ContactUs() {
             </svg>
             <p>31 Wolfe Street, Lévis</p>
           </div>
+          {/* Social Media Icons */}
+          <div className="social-icons">
+            {/* Instagram */}
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm0-2h10a7 7 0 017 7v10a7 7 0 01-7 7H7a7 7 0 01-7-7V7a7 7 0 017-7zm5 7a5 5 0 100 10 5 5 0 000-10zm0-2a7 7 0 110 14 7 7 0 010-14zm6-1a1 1 0 100 2 1 1 0 000-2z" />
+              </svg>
+            </a>
+
+            {/* Facebook */}
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.494v-9.294H9.847V11.41h2.972V8.797c0-2.943 1.796-4.555 4.416-4.555 1.255 0 2.334.093 2.646.135v3.07l-1.817.001c-1.426 0-1.701.677-1.701 1.67v2.192h3.401l-.443 3.296h-2.958V24h5.797C23.407 24 24 23.407 24 22.675V1.325C24 .593 23.407 0 22.675 0z" />
+              </svg>
+            </a>
+
+            {/* Twitter */}
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724c-.951.566-2.005.978-3.127 1.2a4.916 4.916 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475 4.916 4.916 0 002.188 4.096 4.903 4.903 0 01-2.229-.616c-.054 2.28 1.582 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.919 4.919 0 004.604 3.417 9.867 9.867 0 01-7.29 2.034 13.945 13.945 0 007.548 2.213c9.058 0 14.01-7.496 14.01-13.986 0-.21-.005-.423-.014-.634A10.025 10.025 0 0024 4.557z" />
+              </svg>
+            </a>
+          </div>
         </section>
       </main>
 
