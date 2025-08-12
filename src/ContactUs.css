@@ -22,9 +22,9 @@ body {
   display:flex;
   width: 14px;
   height: 14px;
-  background: black;
+  background: rgb(255, 0, 0);
   border-radius: 50%;
-  margin-right: 10px;
+  margin-top: 3px;
 }
 
 .header h1 {
@@ -32,15 +32,19 @@ body {
   font-size: 2rem;
   margin: 0;
   display: flex;
+  color:white;
 }
 
 .header {
   display: flex;
   align-items: center;
-  padding: 30px;
-  background-color: #FCF2B7;
+  gap: 10px;
+  padding: 10px;
+  background-color: #000000;
   border-bottom: 1px solid #020101;
-  border-radius: 30px;
+  /* border-radius: 17px; */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .btn {
@@ -54,12 +58,12 @@ body {
 
 .contact-container {
   display: flex;
-  /* padding: 20px; */
+  padding-top: 70px;
   margin-top: 3%;
   margin-left: 7%;
   margin-right: 7%;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 20px;
 }
 
 .contact-form,
@@ -69,7 +73,7 @@ body {
   padding: 20px;
   flex: 1;
   min-width: 280px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 3px 7px rgba(255, 1, 196, 0.778);
 }
 
 .contact-form h2 {
@@ -91,11 +95,15 @@ body {
   border: 1px solid #ccc;
   margin-top: 5px;
   font-size: 14px;
+  padding-right: 0px;
 }
 
 .contact-form textarea {
   min-height: 80px;
   resize: none;
+  gap:5px;
+  margin-right: 10px;
+
 }
 
 .phone-input {
