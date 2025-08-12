@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafaf7;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.venue-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff8f0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.dot {
+  display:flex;
+  width: 14px;
+  height: 14px;
+  background: black;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header h1 {
+  flex: 1;
+  font-size: 2rem;
+  margin: 0;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: #FCF2B7;
+  border-bottom: 1px solid #020101;
+  border-radius: 30px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-container {
+  display: flex;
+  /* padding: 20px; */
+  margin-top: 3%;
+  margin-left: 7%;
+  margin-right: 7%;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.contact-form,
+.contact-info {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.contact-form h2 {
+  margin-top: 0;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.phone-input {
+  display: flex;
+  gap: 5px;
+}
+
+.send-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-info .info-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #EDEDEA;
+  padding: 12px;
+  border-radius: 18px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400; 
+}
+
+.contact-info .info-box .hover {
+  background: #c8c8c6;
+}
+
+.contact-info .info-box .span {
+  color: #000;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.send-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
