@@ -112,7 +112,7 @@ export default function ContactUs() {
             <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="20" height="20" viewBox="0 0 24 24">
               <path d="M20 4H4a2 2 0 00-2 2v12c0 1.11.89 2 2 2h16c1.1 0 2-.89 2-2V6c0-1.11-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
             </svg>
-            <p>billetterie.langlicane@ville.levis.qc.ca</p>
+            <p>Qlinest.services@gmail.com</p>
           </div>
 
           <div className="info-box">
